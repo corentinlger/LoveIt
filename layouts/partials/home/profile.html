@@ -26,6 +26,7 @@
             {{- . | safeHTML -}}
         </h1>
     {{- end -}}
+
 <!-- 
     {{- with $profile.subtitle -}}
         <div class="home-subtitle">
@@ -39,11 +40,13 @@
         </div>
     {{- end -}} -->
 
+
     {{- with $profile.bio -}}
         <div class="home-bio" style="margin-bottom: 10px; margin-top: 10px" >
             {{- . | safeHTML -}}
         </div>
     {{- end -}}
+
 
     {{- if $profile.social -}}
         <div class="links">
